@@ -2,7 +2,7 @@
     0% {border-top-color: #746396}
     25% {border-right-color: #746396}
     50% {border-bottom-color: #746396}
-    100% {border-left-color: #746396}
+    75% {border-left-color: #746396}
 }
 
 body {
@@ -26,5 +26,6 @@ body {
     border: 8px solid lightsteelblue;
     border-radius: 50%;
     animation-name: loading;
-    animation-duration: 2s;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
 }
