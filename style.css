@@ -1,8 +1,8 @@
 @keyframes loading {
-    0% {border-top-color: #746396}
-    25% {border-right-color: #746396}
-    50% {border-bottom-color: #746396}
-    75% {border-left-color: #746396}
+    0% {border-top-color: #746396; border-right-color: #746396}
+    25% {border-right-color: #746396; border-bottom-color: #746396}
+    50% {border-bottom-color: #746396; border-left-color: #746396}
+    75% {border-left-color: #746396; border-top-color: #746396}
 }
 
 body {
